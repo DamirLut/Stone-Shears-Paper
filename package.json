@@ -1,0 +1,20 @@
+{
+    "name": "stone-shears-paper",
+    "version": "1.0.0",
+    "description": "Discord Bot Stone-Shears-Paper",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsc && node build/index.js"
+    },
+    "keywords": [],
+    "author": "DamirLut",
+    "license": "ISC",
+    "dependencies": {
+        "@discordjs/builders": "^0.4.0",
+        "@discordjs/rest": "^0.1.0-canary.0",
+        "discord.js": "^13.0.0"
+    },
+    "devDependencies": {
+        "@types/node-fetch": "^2.5.12"
+    }
+}
