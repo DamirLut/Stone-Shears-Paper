@@ -8,7 +8,6 @@ import { Routes } from "discord-api-types/v9";
 interface IConfig {
     token: string;
     client_id: string;
-    guild_id: string;
 }
 
 export default class Client extends DiscordJS.Client {
